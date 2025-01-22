@@ -8,8 +8,5 @@ namespace Demo
 {
     internal class SomeFunctions
     {
-        public static bool Test(int number) { return number > 0; }
-        public static string Cast(int number) { return number.ToString(); }
-        public static void Print(string name) { Console.WriteLine($"Hello {name}"); }
     }
 }
